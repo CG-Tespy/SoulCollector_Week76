@@ -192,9 +192,9 @@ public class EnemyMovementPrototype : MovingEntity, IStunnable
 
     }
 
-    public void GetStunned(float duration)
+    public bool GetStunned(float duration)
     {
-
+        throw new System.NotImplementedException();
     }
 
     IEnumerator StunCountdown(float stunDuration)

@@ -1,12 +1,11 @@
 fileFormatVersion: 2
-guid: bdd23fd76dc62d84ca4e8a5791d80bfe
+guid: e41505c5779d42c4b8451b7b9a7d732b
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Reaper_Girl_Idle_Left_0
-    21300002: Reaper_Girl_Idle_Left_1
-    21300004: Reaper_Girl_Idle_Left_2
-    21300006: Reaper_Girl_Idle_Left_3
-    21300008: Reaper_Girl_Idle_Left_4
+    21300000: Reaper_Girl_Attack_Up_0
+    21300002: Reaper_Girl_Attack_Up_1
+    21300004: Reaper_Girl_Attack_Up_2
+    21300006: Reaper_Girl_Attack_Up_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -89,7 +88,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Reaper_Girl_Idle_Left_0
+      name: Reaper_Girl_Attack_Up_0
       rect:
         serializedVersion: 2
         x: 0
@@ -103,13 +102,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 853ed93acb029e84e950c2d152199f91
+      spriteID: b36f2f3ccc89ce145bfe5ec35abd6040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reaper_Girl_Idle_Left_1
+      name: Reaper_Girl_Attack_Up_1
       rect:
         serializedVersion: 2
         x: 200
@@ -123,13 +122,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b4d64e2eef3aa44e8369c54992f445a
+      spriteID: 692add81c3925a44c9644b6a434f5653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reaper_Girl_Idle_Left_2
+      name: Reaper_Girl_Attack_Up_2
       rect:
         serializedVersion: 2
         x: 400
@@ -143,13 +142,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e71c91029be63146a81b83da546ac6d
+      spriteID: aeee13262193f384ba27e2547730928f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reaper_Girl_Idle_Left_3
+      name: Reaper_Girl_Attack_Up_3
       rect:
         serializedVersion: 2
         x: 600
@@ -163,27 +162,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2de0b6e519c124d488687bba93dce67c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reaper_Girl_Idle_Left_4
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 0
-        width: 200
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e2b995110001544d894c06dc5d1d67c
+      spriteID: 171bc704db8943e43ae1e38c73472b22
       vertices: []
       indices: 
       edges: []
@@ -191,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9cf495925639af24d9106983da67e6ab
+    spriteID: fed734a053b11f0438991038b5f850ec
     vertices: []
     indices: 
     edges: []

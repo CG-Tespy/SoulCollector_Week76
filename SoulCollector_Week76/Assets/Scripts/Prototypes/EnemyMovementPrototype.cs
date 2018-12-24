@@ -10,7 +10,7 @@ public enum EnemySoulType
 /// <summary>
 /// Enemies move in a path set in the inspector.
 /// </summary>
-public class EnemyMovementPrototype : MovingEntity
+public class EnemyMovementPrototype : MovingEntity, IStunnable
 {
     [SerializeField] EnemySoulType soulType;
 
@@ -32,8 +32,12 @@ public class EnemyMovementPrototype : MovingEntity
 
     bool forwardsInPath = true; // Whether or not this is moving forwards in the path
 
+    float stunTimer;
+
     //Frantic Movement
     [SerializeField] FranticMovement _FranticStats;
+
+
 
     protected override void Awake()
     {
@@ -52,6 +56,7 @@ public class EnemyMovementPrototype : MovingEntity
 
     public override void HandleMovement()
     {
+
         if (soulType == EnemySoulType.basic)
         {
             if (_pathPoints.Length == 0)
@@ -185,6 +190,17 @@ public class EnemyMovementPrototype : MovingEntity
         }
 
 
+    }
+
+    public void GetStunned(float duration)
+    {
+
+    }
+
+    IEnumerator StunCountdown(float stunDuration)
+    {
+
+        yield return null;
     }
     
 }
